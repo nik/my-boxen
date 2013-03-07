@@ -33,3 +33,13 @@ github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "chrome",  "1.1.0"
+github "iterm2",  "1.0.1"
+github "propane", "1.0.0"
+github "macvim",  "1.0.0"
+github "mou",     "1.0.0"
+github "sizeup",  "1.0.0"
+github "tmux",    "1.0.1"
+github "vim",     "1.0.0"
+github "zsh",     "1.0.0"
