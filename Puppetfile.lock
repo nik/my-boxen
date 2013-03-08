@@ -96,7 +96,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vim
   specs:
-    vim (1.0.0)
+    vim (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-zsh
@@ -135,6 +135,6 @@ DEPENDENCIES
   stdlib (= 3.0.0)
   sudo (= 1.0.0)
   tmux (= 1.0.1)
-  vim (= 1.0.0)
+  vim (= 1.0.1)
   zsh (= 1.0.0)
 
