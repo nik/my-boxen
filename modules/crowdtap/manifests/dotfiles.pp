@@ -1,14 +1,8 @@
 class crowdtap::dotfiles {
   include macvim
   include tmux
+  include vim
   include zsh
-
-  # install a more recent verion of vim
-  package { 'vim':
-    require => Package['mercurial'],
-    ensure  => installed;
-  }
-  package { 'mercurial': }
 
   $home = "/Users/${::boxen_user}"
   $dotfiles_dir = "${boxen::config::srcdir}/dotfiles"

@@ -39,9 +39,24 @@ GITHUBTARBALL
     iterm2 (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-java
+  specs:
+    java (1.0.6)
+
+GITHUBTARBALL
   remote: boxen/puppet-macvim
   specs:
     macvim (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-memcached
+  specs:
+    memcached (1.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-mongodb
+  specs:
+    mongodb (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-mou
@@ -74,6 +89,11 @@ GITHUBTARBALL
     propane (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-redis
+  specs:
+    redis (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
     ruby (3.1.0)
@@ -94,11 +114,6 @@ GITHUBTARBALL
     tmux (1.0.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-vim
-  specs:
-    vim (1.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-zsh
   specs:
     zsh (1.0.0)
@@ -107,6 +122,11 @@ GITHUBTARBALL
   remote: cprice-puppet/puppetlabs-inifile
   specs:
     inifile (0.9.0)
+
+GITHUBTARBALL
+  remote: crowdtap/puppet-rabbitmq
+  specs:
+    rabbitmq (0.2.1)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
@@ -123,18 +143,23 @@ DEPENDENCIES
   hub (= 1.0.0)
   inifile (= 0.9.0)
   iterm2 (= 1.0.1)
+  java (= 1.0.6)
   macvim (= 1.0.0)
+  memcached (= 1.2.0)
+  mongodb (= 1.0.0)
   mou (= 1.0.0)
+  nginx (= 1.1.0)
   nginx (= 1.1.0)
   nodejs (= 1.0.0)
   nvm (= 1.0.0)
   osx (= 1.0.0)
   propane (= 1.0.0)
+  rabbitmq (= 0.2.1)
+  redis (= 1.0.0)
   ruby (= 3.1.0)
   sizeup (= 1.0.0)
   stdlib (= 3.0.0)
   sudo (= 1.0.0)
   tmux (= 1.0.1)
-  vim (= 1.0.1)
   zsh (= 1.0.0)
 

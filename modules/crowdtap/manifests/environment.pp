@@ -1,6 +1,7 @@
 class crowdtap::environment {
   include nodejs::0-8
   include ruby::1_9_3
+  include java
 
   include crowdtap::dotfiles
 
@@ -12,10 +13,10 @@ class crowdtap::environment {
   include sizeup
 
   # ruby projects
-  #include projects::crowdtap
-  #include projects::sniper
-  #include projects::iris
-  #include projects::fiance
+  include projects::crowdtap
+  include projects::sniper
+  include projects::iris
+  include projects::fiance
 
   # node/spine projects
   #include projects::crowdtap_member

@@ -10,6 +10,12 @@ def github(name, version, options = nil)
   mod name, version, :github_tarball => options[:repo]
 end
 
+def crowdtap(name, version, options = nil)
+  options ||= {}
+  options[:repo] ||= "crowdtap/puppet-#{name}"
+  mod name, version, :github_tarball => options[:repo]
+end
+
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
@@ -35,6 +41,12 @@ github "sudo",     "1.0.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+github "java",      "1.0.6"
+github "memcached", "1.2.0"
+github "mongodb",   "1.0.0"
+github "nginx",     "1.1.0"
+github "redis",     "1.0.0"
+
 github "chrome",  "1.1.0"
 github "iterm2",  "1.0.1"
 github "propane", "1.0.0"
@@ -43,3 +55,6 @@ github "mou",     "1.0.0"
 github "sizeup",  "1.0.0"
 github "tmux",    "1.0.1"
 github "zsh",     "1.0.0"
+
+# custom modules
+crowdtap "rabbitmq", "0.2.1"
