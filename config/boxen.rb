@@ -6,7 +6,7 @@
 
 # Change the repo boxen will use.
 ENV['BOXEN_REPO_NAME'] = 'crowdtap/our-boxen'
-ENV['BOXEN_SRC_DIR'] = '~/code'
+ENV['BOXEN_SRC_DIR'] = "#{ENV['HOME']}/code"
 
 # Boxen binary packaging
 # ENV["BOXEN_S3_ACCESS_KEY"] = ''
