@@ -1,7 +1,6 @@
 class crowdtap::dotfiles {
   include macvim
   include tmux
-  include vim
   include zsh
 
   $home = "/Users/${::boxen_user}"
