@@ -10,12 +10,6 @@ def github(name, version, options = nil)
   mod name, version, :github_tarball => options[:repo]
 end
 
-def crowdtap(name, version, options = nil)
-  options ||= {}
-  options[:repo] ||= "crowdtap/puppet-#{name}"
-  mod name, version, :github_tarball => options[:repo]
-end
-
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
@@ -57,4 +51,4 @@ github "tmux",    "1.0.1"
 github "zsh",     "1.0.0"
 
 # custom modules
-crowdtap "rabbitmq", "0.2.1"
+github "rabbitmq", "0.2.1", :repo => "crowdtap/puppet-rabbitmq"

@@ -3,6 +3,9 @@ class crowdtap::environment {
   include ruby::1_9_3
   include java
 
+  package { 'parallel': }
+  package { 'qt': }
+
   include crowdtap::dotfiles
 
   # general
@@ -19,8 +22,8 @@ class crowdtap::environment {
   include projects::fiance
 
   # node/spine projects
-  #include projects::crowdtap_member
-  #include projects::crowdtap_action-management
-  #include projects::crowdtap_action-stats
-  #include projects::crowdtap_action-brand-facebook-tab
+  include projects::crowdtap_member
+  include projects::crowdtap_action_management
+  include projects::crowdtap_action_stats
+  include projects::crowdtap_brand_facebook_tab
 }
