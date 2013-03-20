@@ -40,6 +40,7 @@ github "memcached", "1.2.0"
 github "mongodb",   "1.0.0"
 github "nginx",     "1.1.0"
 github "redis",     "1.0.0"
+github "xquartz",   "1.0.0"
 
 github "chrome",  "1.1.0"
 github "iterm2",  "1.0.1"
