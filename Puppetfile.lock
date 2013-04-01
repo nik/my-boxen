@@ -131,7 +131,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: crowdtap/puppet-rabbitmq
   specs:
-    rabbitmq (0.2.4)
+    rabbitmq (0.2.5)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
@@ -159,7 +159,7 @@ DEPENDENCIES
   nvm (= 1.0.0)
   osx (= 1.0.0)
   propane (= 1.0.0)
-  rabbitmq (= 0.2.4)
+  rabbitmq (= 0.2.5)
   redis (= 1.0.0)
   ruby (= 3.3.1)
   sizeup (= 1.0.0)

@@ -52,4 +52,4 @@ github "tmux",    "1.0.1"
 github "zsh",     "1.0.0"
 
 # custom modules
-github "rabbitmq", "0.2.4", :repo => "crowdtap/puppet-rabbitmq"
+github "rabbitmq", "0.2.5", :repo => "crowdtap/puppet-rabbitmq"
