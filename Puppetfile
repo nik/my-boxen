@@ -35,12 +35,13 @@ github "sudo",     "1.0.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github "java",      "1.0.6"
-github "memcached", "1.2.0"
-github "mongodb",   "1.0.0"
-github "nginx",     "1.1.0"
-github "redis",     "1.0.0"
-github "xquartz",   "1.0.0"
+github "elasticsearch", "1.0.0"
+github "java",          "1.0.6"
+github "memcached",     "1.2.0"
+github "mongodb",       "1.0.0"
+github "nginx",         "1.1.0"
+github "redis",         "1.0.0"
+github "xquartz",       "1.0.0"
 
 github "chrome",  "1.1.0"
 github "iterm2",  "1.0.2"

@@ -1,4 +1,5 @@
 class projects::fiance {
+  include elasticsearch
   include rabbitmq
 
   boxen::project { 'fiance':
