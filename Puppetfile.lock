@@ -74,11 +74,6 @@ GITHUBTARBALL
     nginx (1.1.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-nodejs
-  specs:
-    nodejs (1.1.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-nvm
   specs:
     nvm (1.0.0)
@@ -134,6 +129,11 @@ GITHUBTARBALL
     inifile (0.9.0)
 
 GITHUBTARBALL
+  remote: crowdtap/puppet-nodejs
+  specs:
+    nodejs (1.1.1)
+
+GITHUBTARBALL
   remote: crowdtap/puppet-rabbitmq
   specs:
     rabbitmq (0.3.0)
@@ -161,7 +161,7 @@ DEPENDENCIES
   mou (= 1.0.0)
   nginx (= 1.1.0)
   nginx (= 1.1.0)
-  nodejs (= 1.1.0)
+  nodejs (= 1.1.1)
   nvm (= 1.0.0)
   osx (= 1.0.0)
   propane (= 1.0.0)
