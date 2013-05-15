@@ -4,10 +4,16 @@ class crowdtap::environment {
   include java
   include xquartz
 
+  package { 'imagemagick': }
   package { 'parallel': }
   package { 'qt': }
 
+  nodejs::module { 'coffee-script':
+    node_version => 'v0.8'
+  }
+
   include crowdtap::dotfiles
+  include crowdtap::gitconfig
 
   # general
   include chrome
@@ -16,15 +22,5 @@ class crowdtap::environment {
   include mou
   include sizeup
 
-  # ruby projects
-  include projects::crowdtap
-  include projects::sniper
-  include projects::iris
-  include projects::fiance
-
-  # node/spine projects
-  include projects::crowdtap_member
-  include projects::crowdtap_action_management
-  include projects::crowdtap_action_stats
-  include projects::crowdtap_brand_facebook_tab
+  include projects::all
 }

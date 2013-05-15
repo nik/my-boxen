@@ -74,11 +74,6 @@ GITHUBTARBALL
     nginx (1.1.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-nvm
-  specs:
-    nvm (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-osx
   specs:
     osx (1.1.0)
@@ -96,7 +91,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (3.3.1)
+    ruby (3.6.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-sizeup
@@ -131,7 +126,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: crowdtap/puppet-nodejs
   specs:
-    nodejs (1.1.1)
+    nodejs (2.2.1)
 
 GITHUBTARBALL
   remote: crowdtap/puppet-rabbitmq
@@ -161,13 +156,12 @@ DEPENDENCIES
   mou (= 1.0.0)
   nginx (= 1.1.0)
   nginx (= 1.1.0)
-  nodejs (= 1.1.1)
-  nvm (= 1.0.0)
+  nodejs (= 2.2.1)
   osx (= 1.1.0)
   propane (= 1.0.0)
   rabbitmq (= 0.3.0)
   redis (= 1.0.0)
-  ruby (= 3.3.1)
+  ruby (= 3.6.1)
   sizeup (= 1.0.0)
   stdlib (= 3.0.0)
   sudo (= 1.0.0)
