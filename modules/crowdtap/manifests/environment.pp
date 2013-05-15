@@ -1,5 +1,5 @@
 class crowdtap::environment {
-  include nodejs::0-8
+  include nodejs::v0_8
   include ruby::1_9_3
   include java
   include xquartz

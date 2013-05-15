@@ -1,6 +1,6 @@
 class projects::crowdtap_portal{
   boxen::project { 'crowdtap.portal':
-    nodejs => '0.8',
+    nodejs => 'v0.8',
     source => 'crowdtap/crowdtap.portal'
   }
 }
