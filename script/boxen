@@ -3,9 +3,6 @@
 
 require "pathname"
 
-# Always compile Ruby from source
-ENV["SKIP_PRECOMPILED_RUBIES"] = 1
-
 if ENV["USER"] == "root"
   abort "Run this as a normal user, I'll sudo if I need to."
 end
@@ -70,7 +67,7 @@ end
 # Make sure our local dependencies are up to date.
 
 strap = %w(script/bootstrap --deployment --local --without development:test --no-cache)
-abort "Can't bootstrap, dependencies are outdated." unless system(*strap)
+abort "Can't bootstrap, dependencies are outdated." unless system *strap
 
 # Set up our local configuration, deps, and load path.
 
