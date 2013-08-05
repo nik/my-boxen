@@ -1,7 +1,12 @@
 GITHUBTARBALL
+  remote: boxen/puppet-autoconf
+  specs:
+    autoconf (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (2.1.0)
+    boxen (3.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-chrome
@@ -21,22 +26,22 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
-    gcc (1.0.0)
+    gcc (2.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
-    git (1.2.4)
+    git (1.2.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.1.2)
+    homebrew (1.4.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
-    hub (1.0.0)
+    hub (1.0.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-iterm2
@@ -71,12 +76,17 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
-    nginx (1.4.0)
+    nginx (1.4.2)
 
 GITHUBTARBALL
-  remote: boxen/puppet-osx
+  remote: boxen/puppet-nodejs
   specs:
-    osx (1.1.0)
+    nodejs (3.2.9)
+
+GITHUBTARBALL
+  remote: boxen/puppet-openssl
+  specs:
+    openssl (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-propane
@@ -91,12 +101,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-repository
   specs:
-    repository (2.0.2)
+    repository (2.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (4.1.0)
+    ruby (6.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-sizeup
@@ -124,53 +134,50 @@ GITHUBTARBALL
     zsh (1.0.0)
 
 GITHUBTARBALL
-  remote: cprice-puppet/puppetlabs-inifile
-  specs:
-    inifile (0.9.0)
-
-GITHUBTARBALL
-  remote: crowdtap/puppet-nodejs
-  specs:
-    nodejs (2.2.1)
-
-GITHUBTARBALL
   remote: crowdtap/puppet-rabbitmq
   specs:
     rabbitmq (0.3.0)
 
 GITHUBTARBALL
+  remote: puppetlabs/puppetlabs-inifile
+  specs:
+    inifile (1.0.0)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
-    stdlib (4.0.2)
+    stdlib (4.1.0)
 
 DEPENDENCIES
-  boxen (= 2.1.0)
+  autoconf (= 1.0.0)
+  boxen (= 3.0.1)
   chrome (= 1.1.0)
   dnsmasq (= 1.0.0)
   elasticsearch (= 1.0.0)
-  gcc (= 1.0.0)
-  git (= 1.2.4)
-  homebrew (= 1.1.2)
-  hub (= 1.0.0)
-  inifile (= 0.9.0)
+  gcc (= 2.0.1)
+  git (= 1.2.5)
+  homebrew (= 1.4.1)
+  hub (= 1.0.3)
+  inifile (= 1.0.0)
   iterm2 (= 1.0.2)
   java (= 1.1.0)
   macvim (= 1.0.0)
   memcached (= 1.2.0)
   mongodb (= 1.0.0)
   mou (= 1.0.0)
-  nginx (= 1.4.0)
-  nodejs (= 2.2.1)
-  osx (= 1.1.0)
+  nginx (= 1.4.2)
+  nodejs (= 3.2.9)
+  openssl (= 1.0.0)
   propane (= 1.0.0)
   rabbitmq (= 0.3.0)
   redis (= 1.0.0)
-  repository (= 2.0.2)
-  ruby (= 4.1.0)
+  repository (= 2.2.0)
+  ruby (= 6.3.0)
   sizeup (= 1.0.0)
-  stdlib (= 4.0.2)
+  stdlib (= 4.1.0)
   sudo (= 1.0.0)
   tmux (= 1.0.1)
+  xquartz (= 1.1.0)
   xquartz (= 1.1.0)
   zsh (= 1.0.0)
 
