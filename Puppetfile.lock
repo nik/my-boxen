@@ -89,6 +89,11 @@ GITHUBTARBALL
     openssl (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (1.6.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-propane
   specs:
     propane (1.0.0)
@@ -168,6 +173,7 @@ DEPENDENCIES
   nginx (= 1.4.2)
   nodejs (= 3.2.9)
   openssl (= 1.0.0)
+  osx (= 1.6.0)
   propane (= 1.0.0)
   rabbitmq (= 0.3.0)
   redis (= 1.0.0)
