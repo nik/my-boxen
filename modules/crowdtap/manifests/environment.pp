@@ -7,7 +7,7 @@ class crowdtap::environment {
   package { 'qt': }
 
   nodejs::module { 'coffee-script':
-    node_version => 'v0.8'
+    node_version => 'v0.8.23'
   }
 
   include crowdtap::dotfiles
