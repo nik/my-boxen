@@ -19,6 +19,4 @@ class crowdtap::environment {
   include propane
   include mou
   include sizeup
-
-  include projects::all
 }
