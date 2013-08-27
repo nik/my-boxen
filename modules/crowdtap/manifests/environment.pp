@@ -10,6 +10,10 @@ class crowdtap::environment {
     node_version => 'v0.8.23'
   }
 
+  nodejs::module { 'coffee-script':
+    node_version => 'v0.10.13'
+  }
+
   include crowdtap::dotfiles
   include crowdtap::gitconfig
 
