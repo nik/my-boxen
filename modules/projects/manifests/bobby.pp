@@ -1,6 +1,4 @@
 class projects::bobby {
-  include rabbitmq
-
   boxen::project { 'bobby':
     mongodb   => true,
     redis     => true,

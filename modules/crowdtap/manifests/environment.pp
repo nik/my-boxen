@@ -1,5 +1,7 @@
 class crowdtap::environment {
   include java
+  include elasticsearch
+  include rabbitmq
   include xquartz
 
   package { 'imagemagick': }

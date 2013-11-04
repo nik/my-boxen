@@ -1,6 +1,4 @@
 class projects::iris {
-  include rabbitmq
-
   boxen::project { 'iris':
     mongodb   => true,
     redis     => true,

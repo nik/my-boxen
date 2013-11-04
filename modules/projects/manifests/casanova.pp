@@ -1,6 +1,4 @@
 class projects::casanova {
-  include rabbitmq
-
   boxen::project { 'casanova':
     mongodb   => true,
     redis     => true,

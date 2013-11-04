@@ -1,6 +1,4 @@
 class projects::sniper {
-  include rabbitmq
-
   boxen::project { 'sniper':
     mongodb   => true,
     nginx     => true,

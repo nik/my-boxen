@@ -1,6 +1,4 @@
 class projects::crowdtap {
-  include rabbitmq
-
   boxen::project { 'crowdtap':
     memcached => true,
     mongodb   => true,

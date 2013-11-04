@@ -1,6 +1,4 @@
 class projects::waldo {
-  include rabbitmq
-
   boxen::project { 'waldo':
     mongodb => true,
     nginx   => true,

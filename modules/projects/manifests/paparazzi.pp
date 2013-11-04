@@ -1,6 +1,4 @@
 class projects::paparazzi {
-  include rabbitmq
-
   boxen::project { 'paparazzi':
     mongodb   => true,
     redis     => true,

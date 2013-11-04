@@ -1,6 +1,4 @@
 class projects::monocle {
-  include rabbitmq
-
   boxen::project { 'monocle':
     mongodb   => true,
     redis     => true,
