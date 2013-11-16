@@ -6,7 +6,7 @@ class crowdtap::environment {
 
   package { 'imagemagick': }
   package { 'parallel': }
-  package { 'qt': }
+  package { 'qt': install_options => [ '--HEAD' ] }
 
   nodejs::module { 'coffee-script':
     node_version => 'v0.8.23'
