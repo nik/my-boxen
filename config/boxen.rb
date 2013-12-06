@@ -15,7 +15,7 @@ ENV["SKIP_PRECOMPILED_RUBIES"] = 'true'
 # ENV["BOXEN_S3_BUCKET"] = ''
 
 # Auto-report issues on failed runs
-ENV["BOXEN_ISSUES_ENABLED"] = 'yes'
+ENV["BOXEN_ISSUES_ENABLED"] = 'no'
 
 # Submit audit data to an arbitrary HTTP endpoint
 # ENV["BOXEN_WEB_HOOK_URL"] = 'https://some-uri.com/boxen'
