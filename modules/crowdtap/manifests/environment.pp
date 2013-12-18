@@ -37,7 +37,7 @@ class crowdtap::environment {
   }
 
   repository { "${boxen::config::home}/tap":
-    ensure => 'master',
+    ensure => 'origin/master',
     source => 'crowdtap/tap',
     user   => $::boxen_user
   }
