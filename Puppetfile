@@ -57,7 +57,7 @@ github "xquartz",    "1.1.0"
 # https://github.com/boxen.
 
 github "elasticsearch", "1.0.0"
-github "java",          "1.1.0"
+github "java",          "1.1.2"
 github "memcached",     "1.2.0"
 github "mongodb",       "1.0.0"
 github "redis",         "1.0.0"
