@@ -3,7 +3,7 @@ class projects::sniper {
     mongodb   => true,
     nginx     => true,
     redis     => true,
-    ruby      => '2.0.0-p353',
+    ruby      => '2.1.0',
     source    => 'crowdtap/sniper'
   }
 }
