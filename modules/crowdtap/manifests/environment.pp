@@ -19,8 +19,8 @@ class crowdtap::environment {
 
   # general
   include chrome
+  include hipchat
   include iterm2::dev
-  include propane
   include mou
   include sizeup
 
