@@ -26,6 +26,12 @@ class crowdtap::environment {
 
   include boxen::config
 
+  homebrew::tap {
+    'nviennot/tmate':
+    } -> package { 'tmate':
+    ensure => latest,
+  }
+
   file {
     "${boxen::config::envdir}/tap.sh":
       ensure => absent ;
