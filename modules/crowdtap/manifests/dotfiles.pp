@@ -1,5 +1,4 @@
 class crowdtap::dotfiles {
-  include macvim
   include tmux
   include zsh
 
@@ -7,12 +6,12 @@ class crowdtap::dotfiles {
   $dotfiles_dir = "${boxen::config::srcdir}/dotfiles"
 
   repository { $dotfiles_dir:
-    source => "crowdtap/dotfiles"
+    source => 'crowdtap/dotfiles'
   }
 
-  exec { "install dotfiles":
+  exec { 'install dotfiles':
     cwd      => $dotfiles_dir,
-    command  => "make install",
+    command  => 'make install',
     provider => shell,
     creates  => "${home}/.vimrc",
     require  => Repository[$dotfiles_dir]
