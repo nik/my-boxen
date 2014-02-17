@@ -9,6 +9,7 @@ class crowdtap::environment {
   package { 'imagemagick': }
   package { 'parallel': }
   package { 'qt': }
+  package { 'reattach-to-user-namespace': }
 
   nodejs::module { 'coffee-script':
     node_version => 'v0.8.23'
