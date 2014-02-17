@@ -47,4 +47,6 @@ class crowdtap::environment {
     source => 'crowdtap/tap',
     user   => $::boxen_user
   }
+
+  include projects::all
 }
