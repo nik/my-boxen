@@ -10,6 +10,7 @@ class crowdtap::environment {
   package { 'parallel': }
   package { 'qt': }
   package { 'reattach-to-user-namespace': }
+  package { 'vim': }
 
   nodejs::module { 'coffee-script':
     node_version => 'v0.8.23'
