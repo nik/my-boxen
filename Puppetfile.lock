@@ -158,6 +158,11 @@ GITHUBTARBALL
   specs:
     stdlib (4.1.0)
 
+GITHUBTARBALL
+  remote: ripienaar/puppet-module-data
+  specs:
+    module-data (0.0.1)
+
 DEPENDENCIES
   boxen (= 3.3.8)
   chrome (= 1.1.0)
@@ -174,6 +179,7 @@ DEPENDENCIES
   iterm2 (= 1.0.2)
   java (= 1.1.2)
   memcached (= 1.2.0)
+  module-data (= 0.0.1)
   mongodb (= 1.0.0)
   mou (= 1.0.0)
   nginx (= 1.4.3)
