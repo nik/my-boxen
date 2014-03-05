@@ -50,5 +50,5 @@ class crowdtap::environment {
     user   => $::boxen_user
   }
 
-  include projects::all
+  # include projects::all
 }
