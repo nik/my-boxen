@@ -4,7 +4,7 @@ class projects::crowdtap {
     mongodb   => true,
     nginx     => true,
     redis     => true,
-    ruby      => '1.9.3-p392',
+    ruby      => '2.1.0-github1',
     source    => 'crowdtap/crowdtap'
   }
 }
