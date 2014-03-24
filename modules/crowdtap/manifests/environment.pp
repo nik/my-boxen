@@ -29,6 +29,12 @@ class crowdtap::environment {
 
   include boxen::config
 
+  # Hacky way to install a gem into the system Ruby
+  exec { 'install aws-sdk gem':
+    command => "env -i zsh -c 'source /opt/boxen/env.sh && RBENV_VERSION=system ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future gem install --no-ri --no-rdoc aws-sdk'",
+    user    => root
+  }
+
   homebrew::tap {
     'nviennot/tmate':
     } -> package { 'tmate':
